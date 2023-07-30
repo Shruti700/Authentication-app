@@ -17,8 +17,7 @@ const userSchema = new mongoose.Schema({
   quote:{
     type:String
   }
-},
-  {collection:'user-data'}
+}
 );
 
 const model = mongoose.model('User', userSchema);
